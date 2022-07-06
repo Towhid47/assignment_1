@@ -2,7 +2,6 @@
     margin:0px;
     padding:0px;
     font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
 }
 header{
     background-image: url(images/donation13.jpg);
@@ -22,15 +21,18 @@ header{
     font-size: 70px;    
     text-align: center;
     padding-bottom: 50px;
-    margin-top: 250px;
-    
+    margin-top: 250px;   
 }
-p{
+.main_heading p{
+    color:white;
+    font-size: 24px;
+}
+
+.para p{
     font-size: 24px;
     text-align: center;
-    margin-left: 280px;
-    margin-right: 280px;
-    padding-bottom: 20px;
+    color:rgb(84, 83, 83);
+
 }
 .button_align{
     text-align: center;
@@ -58,7 +60,7 @@ h2{
 .amount{
     text-align:center;
     padding:50px ;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 .buttons_amount{
@@ -86,4 +88,63 @@ h2{
     width: 1000px;
     text-align: center;
     margin:10px;
+}
+.rights{
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.plan{
+    border:none;
+    border-radius: 16px;
+    margin: 20px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.plan h3{
+     font-size:32px;
+}
+.plan p{
+     text-align: justify;
+}
+
+#food{
+    background-color:rgba(136, 197, 199, 0.27);
+    
+}
+
+#shelter{
+    background-color:rgba(255, 189, 222, 0.276) ;
+}
+
+#education{
+    background-color: rgba(255, 228, 196, 0.416);
+}
+
+
+footer{
+    background-color: rgba(0, 0, 0, 0.965);
+    
+    text-align: center;
+    padding:60px;
+    margin-top: 400px ;
+}
+
+footer h3{
+    font-family: 'Lobster Two', cursive;
+    font-size: 50px;
+    color: tomato;
+    
+}
+
+footer p{
+    font-family: 'Inter', sans-serif;
+    font-size:25px;
+    color:white;
 }
