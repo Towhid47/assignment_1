@@ -7,32 +7,40 @@ header{
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: -130px;
 }
 .upper_area{
     background-color: rgba(0, 0, 0, 0.746);
-    padding-bottom: 400px;
-    padding-top: 50px;
+    padding: 60px 60px 100px 60px;
 
 }
 
 .main_heading {
     
     color:white;
-    font-size: 70px;    
+    font-size: 60px;    
     text-align: center;
     padding-bottom: 50px;
-    margin-top: 250px;   
+    margin-top: 220px;
+    margin-right: 250px;
+    margin-left: 250px; 
+
 }
 .main_heading p{
     color:white;
     font-size: 24px;
+}
+.para{
+    margin-top: -70px;
+    padding-top: -200px;
+    margin-left: 450px;
+    margin-right:450px;
 }
 
 .para p{
     font-size: 24px;
     text-align: center;
     color:rgb(84, 83, 83);
-
 }
 .button_align{
     text-align: center;
@@ -129,8 +137,7 @@ h2{
 
 
 footer{
-    background-color: rgba(0, 0, 0, 0.965);
-    
+    background-color: rgb(11, 11, 11);
     text-align: center;
     padding:60px;
     margin-top: 400px ;
@@ -145,6 +152,6 @@ footer h3{
 
 footer p{
     font-family: 'Inter', sans-serif;
-    font-size:25px;
+    font-size:18px;
     color:white;
 }
