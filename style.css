@@ -1,6 +1,8 @@
 *{
     margin:0px;
     padding:0px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 header{
     background-image: url(images/donation13.jpg);
@@ -15,36 +17,29 @@ header{
 }
 
 .main_heading {
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    
     color:white;
     font-size: 70px;    
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     margin-top: 250px;
     
 }
-#text{
-    color:white;
+p{
     font-size: 24px;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
     margin-left: 280px;
     margin-right: 280px;
     padding-bottom: 20px;
 }
 .button_align{
     text-align: center;
-    
 }
 
 
 .button{
     padding: 30px 60px;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    
     font-weight: bold;
     font-size: 30px;
     background:linear-gradient(rgb(249, 105, 64),rgb(251, 94, 42) ,rgb(254, 56, 2) ) ;
@@ -54,10 +49,41 @@ header{
 
 }
 
-.donate_today{
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
+h2{
     text-align:center;
-    font-size:40px;
+    font-size:60px;
     margin-top:200px;
+}
+
+.amount{
+    text-align:center;
+    padding:50px ;
+    margin-bottom: 5px;
+}
+
+.buttons_amount{
+    padding: 40px;
+    font-size: 32px;
+    font-weight: bolder;
+    color:gray;
+    border:none;
+    border-radius: 7px;
+}
+
+#selected{
+    background-color: rgba(249, 161, 146, 0.458);
+    border:3px solid tomato;
+    color:tomato;
+    
+}
+.amount_options{
+    padding-left:40px;
+}
+#input_amount{
+    font-size: 32px; 
+    border:none;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.71);
+    width: 1000px;
+    text-align: center;
+    margin:10px;
 }
