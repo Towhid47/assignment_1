@@ -140,7 +140,7 @@ footer{
     background-color: rgb(11, 11, 11);
     text-align: center;
     padding:60px;
-    margin-top: 400px ;
+    margin-top: 200px ;
 }
 
 footer h3{
@@ -155,3 +155,87 @@ footer p{
     font-size:18px;
     color:white;
 }
+
+.achievement1 img{
+     border-radius: 30px;
+     margin-left: 100px;
+     margin-top: 150px;
+     margin-right: 100px;
+}
+
+.achievement{
+    display:flex;
+    margin-bottom: 100px;
+}
+
+#sylhet{
+    margin-top: 150px;
+    margin-right:150px;
+    margin-left:60px;
+}
+
+h3{
+    font-size:40px;
+}
+.text{
+    font-size:24px;
+    color:grey;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+
+}
+#sylhet .button{
+    font-size: 18px;
+    padding:30px;
+    margin-top:30px;
+    margin-left: 230px;
+
+}
+
+#teach{
+    margin-left:150px;
+    margin-top:150px;
+}
+
+#teach .button{
+    font-size: 18px;
+    padding:30px;
+    margin-top:5px;
+    margin-left: 150px;
+}
+
+.subscribe{
+    background-color: rgba(255, 228, 196, 0.577);
+    border:none
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right:400px;
+    padding:130px;
+}
+
+#email{
+    width: 500px;
+    height: 59px;
+    font-size: 24px;
+    padding-left:35px;
+    background-color: rgb(213, 211, 211);
+    margin-top: 11px;
+    border:none;
+    border-radius: 10px;
+}
+
+#sub{
+    border:none;
+    padding-top:19px;
+    padding-bottom: 14px;
+    padding-right: 60px;
+    padding-left:60px;
+    margin-left:-15px;
+    font-size: 18px;
+    text-align: center;
+    background: linear-gradient(rgba(255, 111, 89, 0.928) , rgb(194, 50, 194));
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
